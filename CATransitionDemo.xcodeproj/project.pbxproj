@@ -8,24 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		591A42332545BA7B0005AB9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A42322545BA7B0005AB9B /* AppDelegate.m */; };
-		591A42362545BA7B0005AB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A42352545BA7B0005AB9B /* ViewController.m */; };
 		591A42392545BA7B0005AB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A42372545BA7B0005AB9B /* Main.storyboard */; };
 		591A423B2545BA7E0005AB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591A423A2545BA7E0005AB9B /* Assets.xcassets */; };
 		591A423E2545BA7E0005AB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591A423C2545BA7E0005AB9B /* LaunchScreen.storyboard */; };
 		591A42412545BA7E0005AB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A42402545BA7E0005AB9B /* main.m */; };
+		591A42502545BAC20005AB9B /* MyDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A42482545BAC10005AB9B /* MyDismissTransition.m */; };
+		591A42512545BAC20005AB9B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 591A42492545BAC10005AB9B /* SecondViewController.xib */; };
+		591A42522545BAC20005AB9B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A424A2545BAC10005AB9B /* SecondViewController.m */; };
+		591A42542545BAC20005AB9B /* MyTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A424E2545BAC20005AB9B /* MyTransition.m */; };
+		591A42572545BB8F0005AB9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 591A42562545BB8F0005AB9B /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		591A422E2545BA7B0005AB9B /* CATransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591A42312545BA7B0005AB9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		591A42322545BA7B0005AB9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		591A42342545BA7B0005AB9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		591A42352545BA7B0005AB9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		591A42382545BA7B0005AB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		591A423A2545BA7E0005AB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		591A423D2545BA7E0005AB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591A423F2545BA7E0005AB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591A42402545BA7E0005AB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		591A42472545BAC10005AB9B /* MyDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDismissTransition.h; sourceTree = "<group>"; };
+		591A42482545BAC10005AB9B /* MyDismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDismissTransition.m; sourceTree = "<group>"; };
+		591A42492545BAC10005AB9B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		591A424A2545BAC10005AB9B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		591A424C2545BAC20005AB9B /* MyTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransition.h; sourceTree = "<group>"; };
+		591A424E2545BAC20005AB9B /* MyTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransition.m; sourceTree = "<group>"; };
+		591A424F2545BAC20005AB9B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		591A42552545BB8F0005AB9B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		591A42562545BB8F0005AB9B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,17 @@
 		591A42302545BA7B0005AB9B /* CATransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				591A42552545BB8F0005AB9B /* ViewController.h */,
+				591A42562545BB8F0005AB9B /* ViewController.m */,
+				591A42472545BAC10005AB9B /* MyDismissTransition.h */,
+				591A42482545BAC10005AB9B /* MyDismissTransition.m */,
+				591A424C2545BAC20005AB9B /* MyTransition.h */,
+				591A424E2545BAC20005AB9B /* MyTransition.m */,
+				591A424F2545BAC20005AB9B /* SecondViewController.h */,
+				591A424A2545BAC10005AB9B /* SecondViewController.m */,
+				591A42492545BAC10005AB9B /* SecondViewController.xib */,
 				591A42312545BA7B0005AB9B /* AppDelegate.h */,
 				591A42322545BA7B0005AB9B /* AppDelegate.m */,
-				591A42342545BA7B0005AB9B /* ViewController.h */,
-				591A42352545BA7B0005AB9B /* ViewController.m */,
 				591A42372545BA7B0005AB9B /* Main.storyboard */,
 				591A423A2545BA7E0005AB9B /* Assets.xcassets */,
 				591A423C2545BA7E0005AB9B /* LaunchScreen.storyboard */,
@@ -128,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591A42512545BAC20005AB9B /* SecondViewController.xib in Resources */,
 				591A423E2545BA7E0005AB9B /* LaunchScreen.storyboard in Resources */,
 				591A423B2545BA7E0005AB9B /* Assets.xcassets in Resources */,
 				591A42392545BA7B0005AB9B /* Main.storyboard in Resources */,
@@ -141,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591A42362545BA7B0005AB9B /* ViewController.m in Sources */,
+				591A42572545BB8F0005AB9B /* ViewController.m in Sources */,
+				591A42522545BAC20005AB9B /* SecondViewController.m in Sources */,
+				591A42502545BAC20005AB9B /* MyDismissTransition.m in Sources */,
 				591A42412545BA7E0005AB9B /* main.m in Sources */,
+				591A42542545BAC20005AB9B /* MyTransition.m in Sources */,
 				591A42332545BA7B0005AB9B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
